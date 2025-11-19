@@ -4,10 +4,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arunkumar's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <title>Arunkumar Kabilan - SDET/QAE Portfolio</title>
+    <meta name="description" content="Arunkumar Kabilan - SDET/QAE with 6+ years experience in test automation, GenAI-driven testing, and scalable automation solutions at Amazon.">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <style>
+        /* Enhanced responsive styles */
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2rem !important; }
+            .hero-paragraph { font-size: 1rem !important; }
+            .section-title { font-size: 1.8rem !important; }
+            .feature-title { font-size: 1.2rem !important; }
+            .hero-media-image { max-height: 250px !important; }
+            .header-nav a { padding: 8px 16px !important; font-size: 0.9rem !important; }
+        }
+        @media (max-width: 480px) {
+            .hero-title { font-size: 1.5rem !important; }
+            .section-paragraph { font-size: 0.9rem !important; }
+            .features-wrap { flex-direction: column !important; }
+            .feature { margin-bottom: 2rem !important; }
+        }
+        .header-nav a {
+            background: rgba(0,0,0,0.8) !important;
+            color: white !important;
+            border: 1px solid rgba(255,255,255,0.3) !important;
+            transition: all 0.3s ease !important;
+        }
+        .header-nav a:hover {
+            background: rgba(0,0,0,0.9) !important;
+            transform: translateY(-2px) !important;
+        }
+    </style>
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
@@ -17,10 +45,13 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="index.html">
-								<img class="header-logo-image asset-light" src="Logo4.png" alt="AK">
-								<img class="header-logo-image asset-dark" src="Logo5.png" alt="AK">
+								<img class="header-logo-image asset-light" src="Logo4.png" alt="AK Logo">
+								<img class="header-logo-image asset-dark" src="Logo5.png" alt="AK Logo">
                             </a>
                         </h1>
+                    </div>
+                    <div class="header-nav">
+                        <a class="button button-primary button-sm" href="ARUNKUMAR_K_RESUME.pdf" download="Arunkumar_Kabilan_Resume.pdf">Resume</a>
                     </div>
                 </div>
             </div>
@@ -31,12 +62,12 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Heyo -<^.^>- </br>About AK!</h1>
-	                        <p class="hero-paragraph"><b>ARUNKUMAR KABILAN</b>, </br>Twenty-Two years old proactive boy who loves Computer Programming & Mathematics</p>
+	                        <h1 class="hero-title mt-0">Heyo -<^.^>- <br>About AK!</h1>
+	                        <p class="hero-paragraph"><strong>ARUNKUMAR KABILAN</strong><br>Motivated Technical Engineer with 6+ years of experience building automation frameworks for mobile and web applications. SDET/QAE at Amazon, passionate about GenAI-driven testing and scalable automation solutions.</p>
 	                        <div class="hero-cta">
 								<div class="lights-toggle">
-									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch">
+									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">light</span></span></label>
 								</div>
 							</div>
 						</div>
@@ -50,8 +81,8 @@
 								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
 							</div>
 							<div class="hero-media-container">
-								<img class="hero-media-image asset-light" src="AK 2.jpg" alt="Hero media" style="max-height: 400px;">
-								<img class="hero-media-image asset-dark" src="AK 2.jpg" alt="Hero media" style="max-height: 400px;">
+								<img class="hero-media-image asset-light" src="AK 2.jpg" alt="Arunkumar Kabilan" style="max-height: 400px;">
+								<img class="hero-media-image asset-dark" src="AK 2.jpg" alt="Arunkumar Kabilan" style="max-height: 400px;">
 							</div>
 						</div>
                     </div>
@@ -63,57 +94,171 @@
 					<div class="features-inner section-inner has-bottom-divider">
 						<div class="features-header text-center">
 							<div class="container-sm">
-								<h2 class="section-title mt-0">Arunkumar's Skills</h2>
-	                            <p class="section-paragraph">C | C++ | Java | JSP | Servlet | HTML | CSS | Javascript | SQL | Android</p>
+								<h2 class="section-title mt-0">Technical Skills</h2>
+	                            <p class="section-paragraph">Java | Python | JavaScript | TypeScript | Selenium | Appium | AWS | GenAI Automation | REST Assured | TestNG | JUnit | Performance Testing | API Testing | CI/CD | Device Farm Management</p>
 								<div class="features-image">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
-									<img class="features-box asset-dark" src="4.jpg" alt="Feature box">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
-									<img class="features-box asset-light" src="4.jpg" alt="Feature box">
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-top-light.svg" alt="Feature illustration top">
+									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Skills illustration">
+									<img class="features-box asset-dark" src="4.jpg" alt="Skills showcase">
+									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Skills illustration top">
+									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Skills illustration">
+									<img class="features-box asset-light" src="4.jpg" alt="Skills showcase">
+									<img class="features-illustration asset-light" src="dist/images/features-illustration-top-light.svg" alt="Skills illustration top">
 								</div>
 							</div>
                         </div>
                         <div class="features-header text-center">
                             <div class="container-sm">
-                                <h2 class="section-title mt-0">Arunkumar's Achievements</h2>
-                                </div>
+                                <h2 class="section-title mt-0">Key Achievements</h2>
+                            </div>
                         </div>
                         <div class="features-wrap">
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
-										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="GenAI Framework">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="GenAI Framework">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Best Project Award. Technical Club 2018, MVIT</h3>
-                                    	<p class="text-sm mb-0">The objective of this project is to develop an android app that helps the people who met with an accident by communicating their parental contact.</p>
+                                    	<h3 class="feature-title mt-0">GenAI-Driven UI Automation Framework</h3>
+                                    	<p class="text-sm mb-0">Led development of an innovative GenAI-driven UI automation framework that allows teams to run browser and mobile tests using simple natural language prompts, making testing faster and more accessible.</p>
 									</div>
 								</div>
                             </div>
 							<div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
-										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Excellence Awards">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Excellence Awards">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Runners up in Smart India Hackathon 2019</h3>
-                                    	<p class="text-sm mb-0">Developed a project named "Shared Rooftop Rain Water Harvesting Guider" that guides the user by providing various idea for complete setup and installation for Rainwater Harvesting over a large area.</p>
+                                    	<h3 class="feature-title mt-0">Two Operational Excellence Awards</h3>
+                                    	<p class="text-sm mb-0">Recognized with two Operational Excellence awards for driving automation adoption across multiple teams, helping achieve full test coverage and reduce manual effort significantly.</p>
 									</div>
 								</div>
                             </div>
 							<div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Device Farm">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Device Farm">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">NPTEL DBMS Certification</h3>
-                                    	<p class="text-sm mb-0">Cleared NPTEL Database Management Certification with elite grade.</p>
+                                    	<h3 class="feature-title mt-0">Scalable Device Farm Implementation</h3>
+                                    	<p class="text-sm mb-0">Designed and implemented a scalable device farm at org level, enabling QA teams to efficiently utilize mobile devices for automated and manual testing across multiple platforms.</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="LeetCode Streak">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="LeetCode Streak">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">500-Day LeetCode Streak</h3>
+                                    	<p class="text-sm mb-0">Built a 500-day LeetCode streak through daily coding challenges, showcasing commitment to improving algorithmic thinking and coding skills consistently.</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Hackathon">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Hackathon">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Smart India Hackathon 2019 Finalist</h3>
+                                    	<p class="text-sm mb-0">Finalist and Runners-up in Smart India Hackathon 2019 for "Shared Rooftop Rain Water Harvesting Guider" project. Later served as Evaluator in 2022, contributing back to the tech community.</p>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+						<div class="features-header text-center">
+							<div class="container-sm">
+								<h2 class="section-title mt-0">Professional Experience</h2>
+	                            <p class="section-paragraph">6+ years of experience in test automation and quality engineering</p>
+							</div>
+                        </div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Amazon">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Amazon">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Amazon - SDET/QAE (Nov 2022 - Present)</h3>
+                                    	<p class="text-sm mb-0">Leading automation initiatives across Digital Emerging Payments, VEGA OS (Alexa & Fire TV), and Last Mile Delivery Tech. Owned releases for payment methods across 6 countries and developed GenAI-driven testing solutions.</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Zoho">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Zoho">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Zoho - Member of Technical Staff (Dec 2019 - Oct 2022)</h3>
+                                    	<p class="text-sm mb-0">Managed release cycles for M365 Manager Plus, developed REST Assured suites for Microsoft Graph and Azure AD, performed security testing, and received four performance bonuses for engineering excellence.</p>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner">
+						<div class="features-header text-center">
+							<div class="container-sm">
+								<h2 class="section-title mt-0">Get In Touch</h2>
+	                            <p class="section-paragraph">Let's connect and discuss automation, testing, and technology</p>
+							</div>
+                        </div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Email">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Email">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Email</h3>
+                                    	<p class="text-sm mb-0">arunastro1999@gmail.com</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="LinkedIn">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="LinkedIn">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">LinkedIn</h3>
+                                    	<p class="text-sm mb-0"><a href="https://linkedin.com/in/arunkumar-kabilan" target="_blank" rel="noopener">linkedin.com/in/arunkumar-kabilan</a></p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Location">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Location">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Location</h3>
+                                    	<p class="text-sm mb-0">Chennai, India</p>
 									</div>
 								</div>
                             </div>
